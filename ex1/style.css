@@ -55,3 +55,23 @@ h1 a:hover {
     border: 1px solid #7E9F19;
     margin: 10px;
 }
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.sidenote {
+    background-color: #fffb4e;
+    border: 1px solid #c9bc8f;
+    padding: 10px;
+}
+
+.sidenote h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.sidenote ol {
+    font-size: 12px;
+}
