@@ -27,6 +27,11 @@ h1 a:hover {
     max-width: 960px;
 }
 
+.places {
+    float: left;
+    max-width: 660px;
+}
+
 .place {
     height: auto;
     border: 1px solid #ccc;
@@ -47,7 +52,7 @@ h1 a:hover {
 }
 
 .place img {
-    width: 200px;
+    max-width: 200px;
     height: 120px;
     display: block;
     margin-top: 10px;
@@ -56,15 +61,17 @@ h1 a:hover {
     margin: 10px;
 }
 
-.footer {
-    font-size: 12px;
-    text-align: center;
+.clear {
+    clear: both;
 }
 
+
 .sidenote {
-    background-color: #fffb4e;
+    background-color: #fffbe4;
     border: 1px solid #c9bc8f;
     padding: 10px;
+    float: right;
+    max-width: 260px;
 }
 
 .sidenote h3 {
@@ -74,4 +81,14 @@ h1 a:hover {
 
 .sidenote ol {
     font-size: 12px;
+}
+
+.footer {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #333333;
 }
